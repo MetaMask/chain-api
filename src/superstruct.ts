@@ -1,5 +1,5 @@
-import type { Struct } from 'superstruct';
-import { define } from 'superstruct';
+import type { Struct } from '@metamask/superstruct';
+import { define } from '@metamask/superstruct';
 
 /**
  * Defines a new string-struct matching a regular expression.

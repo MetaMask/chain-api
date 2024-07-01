@@ -1,5 +1,5 @@
-import type { Infer } from 'superstruct';
-import { is, string, pattern } from 'superstruct';
+import type { Infer } from '@metamask/superstruct';
+import { is, string, pattern } from '@metamask/superstruct';
 
 export const CAIP_ASSET_TYPE_REGEX =
   /^(?<chainId>(?<namespace>[-a-z0-9]{3,8}):(?<reference>[-_a-zA-Z0-9]{1,32}))\/(?<assetNamespace>[-a-z0-9]{3,8}):(?<assetReference>[-.%a-zA-Z0-9]{1,128})$/u;

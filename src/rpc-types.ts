@@ -1,5 +1,4 @@
-import { CaipChainIdStruct } from '@metamask/utils';
-import type { Infer } from 'superstruct';
+import type { Infer } from '@metamask/superstruct';
 import {
   record,
   array,
@@ -8,7 +7,8 @@ import {
   number,
   object,
   literal,
-} from 'superstruct';
+} from '@metamask/superstruct';
+import { CaipChainIdStruct } from '@metamask/utils';
 
 import { CaipAssetTypeOrIdStruct } from './caip-types';
 import { StringNumberStruct } from './types';
